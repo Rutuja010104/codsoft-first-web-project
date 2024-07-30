@@ -1,0 +1,247 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #333;
+    background-image: url('D:\pngtree-blue-background-high-resolution-images-free-vector-image_13093708.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header Styles */
+header {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+}
+
+header nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+header nav li {
+    padding: 0 10px;
+}
+
+header h1 {
+    margin-top: 20px;
+}
+
+/* About Styles */
+#about {
+    padding: 40px;
+    text-align: center;
+}
+
+#about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    border: 5px solid #fff;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+}
+
+/* Skills Styles */
+#skills {
+    padding: 100px;
+    background-image: url('D:\images (28).jpeg'); 
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+#skills .skill-gap {
+    height: 100px; 
+}
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#skills li {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#skills i {
+    font-size: 3rem;
+    color: #337ab7;
+    margin-bottom: 10px;
+}
+
+#skills h3 {
+    margin-bottom: 10px;
+}
+
+/* Projects Styles */
+#projects {
+    padding: 90px;
+    background-image: url('D:\images (1).png'); 
+    background-size: cover;
+    background-position: center;
+   /* background-attachment: fixed; /* Optional: fix background attachment */
+}
+
+#projects h2 {
+    margin-bottom: 20px;
+    color: #fff; 
+}
+
+#projects .project {
+    width: 100%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+#projects .project-gap {
+    height: 100px; 
+}
+
+#projects .project:hover {
+    transform: translateY(-5px);
+}
+
+#projects .project img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+#projects .project h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#projects .project p {
+    margin-bottom: 10px;
+}
+
+#projects .project .btn {
+    display: inline-block;
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#projects .project .btn:hover {
+    background-color: #23527c;
+}
+
+/* Resume Styles */
+#resume {
+    padding: 150px;
+    background-image: url('D:\pngtree-abstract-cyan-lights-background-design-stock-vector-blue-wallpaper-picture-image_2385694.jpg'); 
+    background-size: cover;
+    background-position: center;
+   /* background-attachment: fixed; /* Optional: fix background attachment */
+    text-align: center;
+}
+
+#resume a {
+    display: inline-block;
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#resume a:hover {
+    background-color: #23527c;
+}
+
+/* Contact Styles */
+#contact {
+    padding: 40px;
+    background-image: url('D:\images (29).jpeg'); 
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    text-align: center;
+}
+
+#contact p {
+    margin-bottom: 20px;
+}
+
+#contact ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#contact li {
+    padding: 0 10px;
+}
+
+#contact a {
+    font-size: 2rem;
+    color: hsl(208, 73%, 42%);
+    margin-right: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact a:hover {
+    color: #23527c;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0;
+}
